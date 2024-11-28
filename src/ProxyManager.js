@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  'SERVER 1': 'https://raw.githubusercontent.com/WackyDawg/getgrass-bot/refs/heads/main/proxy.txt',
+  'SERVER 1': 'https://api.proxyscrape.com/v4/free-proxy-list/get/?request=display_proxies&proxy_format=protocolipport&format=text',
   'SERVER 2': 'https://raw.githubusercontent.com/monosans/proxy-list/refs/heads/main/proxies_anonymous/all.txt',
   'SERVER 3': 'https://files.ramanode.top/airdrop/grass/server_3.txt',
   'SERVER 4': 'https://files.ramanode.top/airdrop/grass/server_4.txt',
